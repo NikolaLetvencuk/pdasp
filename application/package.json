@@ -1,0 +1,14 @@
+{
+  "name": "trgovina-app",
+  "version": "1.0.0",
+  "description": "Konzolna aplikacija za komunikaciju sa Hyperledger Fabric mrezom",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@hyperledger/fabric-gateway": "~1.4.0",
+    "@grpc/grpc-js": "~1.10.0",
+    "readline-sync": "^1.4.10"
+  }
+}

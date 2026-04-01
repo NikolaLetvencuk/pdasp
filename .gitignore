@@ -1,0 +1,33 @@
+# Fabric generated artifacts
+network/organizations/peerOrganizations/
+network/organizations/ordererOrganizations/
+network/channel-artifacts/
+network/log.txt
+network/trgovina.tar.gz
+network/trgovina_ccaas.tar.gz
+
+# Fabric binaries (too large for git, download with install-fabric.sh)
+bin/
+config/
+
+# Node.js
+application/node_modules/
+application/package-lock.json
+
+# Go build artifacts
+chaincode/trgovina/chaincode
+chaincode/trgovina/chaincode.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Install script
+install-fabric.sh
+
+# PDFs (lecture materials, not part of project)
+*.pdf
